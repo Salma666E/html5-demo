@@ -1,0 +1,120 @@
+body{
+    padding-left: 50px;
+    padding-top: 3%;
+
+}
+nav{
+    width: 100%;
+    background: rgb(158, 154, 154);
+    height: 110px;
+    font-size: 42px;
+    font-weight: bold;
+}
+ul{
+    display: inline;
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+li{
+    float: left;
+    padding: 30px;
+}
+li i{
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+i:hover{color: black;}
+li:hover{
+    transition-duration: 2s;
+    background-color: rgb(140, 218, 140);
+}
+#p1{
+    font-size: 32px;
+    font-weight: bold;
+    font-family: cursive;
+}
+#p2{
+    font-size: 30px;
+    font-family: 'Pacifico';
+    display: swap;
+}
+/* ///////////////////////////////////////////////// */
+.ColumnsDiv {
+    column-count: 3;
+    /* column-gap: 20px; */
+    column-rule: 8px solid gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+/* ///////////////////////////////////////////////// */
+#float{
+    border: 1px solid;
+    border-radius: 50%;
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    transition:width 1.5s ease-in-out;
+    overflow: hidden;
+}
+#float img{
+    float: left;
+    width: 200px;
+    display: flex;
+}
+#float span{
+    float: left;
+    height: 100px;
+    width: 140px;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+#float i{
+    color: grey;
+    margin-top: 100px;
+    float: left;
+    width: 10px;
+    font-size: 28px;
+}
+/* ///////////////////////////////////////////////// */
+.sec{
+    margin: 10px;
+    margin-bottom: 150px;
+}
+.sec:hover{
+    transform:scale(1.5);
+}
+/* ///////////////////////////////////////// */
+.myName{
+    width: 100%;
+    height: 400px;
+    background: #ddd;
+}
+.myName #global{
+    color: #000;
+    background:green;
+}
+.myName .divs{
+    height: 100%;
+    width: 2%;
+    color: #fff;
+    background: rgb(107, 103, 103);
+    float: left;
+    writing-mode: vertical-rl;
+    margin-right: 2px;
+    text-align: center;
+    padding-left:1%;
+}
+.myName .divs p{
+    transform: rotate(-180deg)
+}
+p,h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+}
+/* ///////////////////////////////////////// */
